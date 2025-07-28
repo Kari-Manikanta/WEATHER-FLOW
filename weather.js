@@ -40,7 +40,7 @@ async function searchWeather() {
 }
 
 async function updateWeather(city) {
-    const apiKey = 'fc516cf1d2b8466da6b174837252207'; // Replace with your actual API key
+    const apiKey = 'YOUR_API_KEY'; // Replace with your actual API key check in weather.api to get free api key
     const currentUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=yes`;
     const forecastUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=7&aqi=yes&alerts=no`;
 
